@@ -14,8 +14,8 @@ pipeline {
         stage('Find the OS') {
             steps {
                  sh 'uname -a'
-                // sh  'mvn -v'
-                // sh  'ansible --version'
+                /* sh  'mvn -v'  */
+                /* sh  'ansible --version'  */
             }               
         }
 		
