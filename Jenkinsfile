@@ -16,6 +16,7 @@ pipeline {
                  sh 'uname -a'
                 /* sh  'mvn -v'  */
                 /* sh  'ansible --version'  */
+		 sh 'docker images'
             }               
         }
 		
