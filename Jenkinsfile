@@ -19,14 +19,14 @@ pipeline {
             }               
         }
 		
-		stage('Fun time ... Docker inside a docker :-) ') {
-			steps {
-				sh 'echo ********'
-				
-			}
-		
-		
+	stage('Fun time ... Docker inside a docker') {
+	   steps {
+		sh 'echo ********'
+			
 		}
+		
+		
+	}
 		
     }
 }
