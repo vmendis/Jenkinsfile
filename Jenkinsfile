@@ -18,5 +18,15 @@ pipeline {
                 // sh  'ansible --version'
             }               
         }
+		
+		stage('Fun time ... Docker inside a docker :-) ') {
+			steps {
+				sh 'echo ********'
+				
+			}
+		
+		
+		}
+		
     }
 }
