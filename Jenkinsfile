@@ -19,14 +19,15 @@ pipeline {
             }               
         }
 		
-	stage('Fun time ... Docker inside a docker') {
-	   steps {
-		sh 'echo ********'
+		stage('Fun time ... Docker inside a docker') {
+			agent {
+				docker { image 'maven:3-alpine' }
+			}
+			steps {
+				sh 'mvn --version'
 			
+			}	
 		}
-		
-		
-	}
 		
     }
 }
