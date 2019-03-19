@@ -14,3 +14,5 @@ As this Jenkins was running on a Docker (on some cloud on far away Galaxy) I did
 To understand what was happening I wrote this Jenkinsfile to interrogate the docker.
 
 Modify and use as your requirements.
+
+USAGE:
