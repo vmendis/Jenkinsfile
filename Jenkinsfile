@@ -5,6 +5,7 @@ pipeline {
         stage('List WorkSpace') {
             steps {
                 echo 'Listing WorkSpace..'
+                sh 'pwd'
                 sh 'ls'
                 
             }
