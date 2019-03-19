@@ -15,4 +15,16 @@ To understand what was happening I wrote this Jenkinsfile to interrogate the doc
 
 Modify and use as your requirements.
 
-USAGE:
+Configuring Jenkins:
+
+New Item
+ Name of the project
+ Select Pipeline
+
+  Click 'Pipeline' Tab
+    Definition = Pipeline script from SCM (From pull down menu)
+    SCM = Git
+    Repository URL = https://github.com/vmendis/Jenkinsfile.git
+    Credentials - none
+  Branches to build  */master
+Script Path = Jenkinsfile
